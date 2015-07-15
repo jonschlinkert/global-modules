@@ -1,23 +1,14 @@
 {
   "name": "global-modules",
   "description": "The directory used by npm for globally installed npm modules.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/jonschlinkert/global-modules",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonschlinkert/global-modules.git"
-  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/global-modules",
   "bugs": {
     "url": "https://github.com/jonschlinkert/global-modules/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/jonschlinkert/global-modules/blob/master/LICENSE"
-  },
+  "license": "MIT",
   "files": [
     "index.js"
   ],
@@ -29,10 +20,27 @@
     "test": "mocha"
   },
   "dependencies": {
-    "global-prefix": "^0.1.0"
+    "global-prefix": "^0.1.0",
+    "is-windows": "^0.1.0"
   },
-  "devDependencies": {
-    "should": "*"
-  },
-  "keywords": []
+  "keywords": [
+    "directory",
+    "dirname",
+    "global",
+    "module",
+    "package",
+    "path",
+    "prefix",
+    "resolve"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "global-prefix",
+        "cwd",
+        "git-config-path",
+        "contains-path"
+      ]
+    }
+  }
 }
