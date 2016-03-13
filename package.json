@@ -20,8 +20,11 @@
     "test": "mocha"
   },
   "dependencies": {
-    "global-prefix": "^0.1.0",
-    "is-windows": "^0.1.0"
+    "global-prefix": "^0.1.1",
+    "is-windows": "^0.1.1"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.7"
   },
   "keywords": [
     "directory",
@@ -34,6 +37,15 @@
     "resolve"
   ],
   "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
     "related": {
       "list": [
         "global-prefix",
@@ -41,6 +53,12 @@
         "git-config-path",
         "contains-path"
       ]
+    },
+    "reflinks": [
+      "verb"
+    ],
+    "lint": {
+      "reflinks": true
     }
   }
 }

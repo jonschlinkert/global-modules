@@ -11,8 +11,8 @@ var fs = require('fs');
 var assert = require('assert');
 var mods = require('./');
 
-describe('mods', function () {
-  it('should resolve the path to the global npm modules directory:', function () {
+describe('mods', function() {
+  it('should resolve the path to the global npm modules directory:', function() {
     assert(fs.existsSync(mods) === true);
   });
 });
