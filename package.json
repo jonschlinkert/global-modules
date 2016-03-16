@@ -24,7 +24,8 @@
     "is-windows": "^0.1.1"
   },
   "devDependencies": {
-    "gulp-format-md": "^0.1.7"
+    "gulp-format-md": "^0.1.7",
+    "mocha": "~2.4.5"
   },
   "keywords": [
     "directory",
