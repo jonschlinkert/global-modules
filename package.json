@@ -20,12 +20,11 @@
     "test": "mocha"
   },
   "dependencies": {
-    "global-prefix": "^0.1.1",
-    "is-windows": "^0.1.1"
+    "global-prefix": "^0.1.4",
+    "is-windows": "^0.2.0"
   },
   "devDependencies": {
-    "gulp-format-md": "^0.1.7",
-    "mocha": "~2.4.5"
+    "gulp-format-md": "^0.1.9"
   },
   "keywords": [
     "directory",
@@ -50,8 +49,8 @@
     "related": {
       "list": [
         "global-prefix",
-        "cwd",
         "git-config-path",
+        "npm-paths",
         "contains-path"
       ]
     },
