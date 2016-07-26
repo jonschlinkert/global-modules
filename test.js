@@ -7,12 +7,13 @@
 
 'use strict';
 
-var fs = require('fs');
+require('mocha');
 var assert = require('assert');
+var exists = require('fs-exists-sync');
 var mods = require('./');
 
 describe('mods', function() {
   it('should resolve the path to the global npm modules directory:', function() {
-    assert(fs.existsSync(mods) === true);
+    assert(exists(mods));
   });
 });
