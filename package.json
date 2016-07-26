@@ -1,7 +1,7 @@
 {
   "name": "global-modules",
   "description": "The directory used by npm for globally installed npm modules.",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "homepage": "https://github.com/jonschlinkert/global-modules",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/global-modules",
