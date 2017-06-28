@@ -25,14 +25,13 @@
     "test": "mocha"
   },
   "dependencies": {
-    "global-prefix": "^0.1.4",
-    "is-windows": "^0.2.0",
+    "global-prefix": "^1.0.1",
+    "is-windows": "^1.0.1",
     "resolve-dir": "^1.0.0"
   },
   "devDependencies": {
-    "gulp-format-md": "^0.1.9",
-    "mocha": "^2.5.3",
-    "fs-exists-sync": "^0.1.0"
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.4.2"
   },
   "keywords": [
     "directory",
@@ -57,7 +56,7 @@
     ],
     "related": {
       "list": [
-        "contains-path",
+        "homedir-polyfill",
         "git-config-path",
         "global-prefix",
         "npm-paths"
