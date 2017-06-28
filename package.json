@@ -4,6 +4,11 @@
   "version": "0.2.3",
   "homepage": "https://github.com/jonschlinkert/global-modules",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "contributors": [
+    "JasonChang (https://packagist.org/packages/jason-chang)",
+    "Jon Schlinkert (http://twitter.com/jonschlinkert)",
+    "Kiko Beats (https://kikobeats.com)"
+  ],
   "repository": "jonschlinkert/global-modules",
   "bugs": {
     "url": "https://github.com/jonschlinkert/global-modules/issues"
@@ -21,18 +26,20 @@
   },
   "dependencies": {
     "global-prefix": "^0.1.4",
-    "is-windows": "^0.2.0"
+    "is-windows": "^0.2.0",
+    "resolve-dir": "^1.0.0"
   },
   "devDependencies": {
-    "fs-exists-sync": "^0.1.0",
     "gulp-format-md": "^0.1.9",
-    "mocha": "^2.5.3"
+    "mocha": "^2.5.3",
+    "fs-exists-sync": "^0.1.0"
   },
   "keywords": [
     "directory",
     "dirname",
     "global",
     "module",
+    "modules",
     "package",
     "path",
     "prefix",
@@ -50,10 +57,10 @@
     ],
     "related": {
       "list": [
-        "global-prefix",
+        "contains-path",
         "git-config-path",
-        "npm-paths",
-        "contains-path"
+        "global-prefix",
+        "npm-paths"
       ]
     },
     "reflinks": [
