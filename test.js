@@ -1,19 +1,19 @@
 /*!
  * global-modules <https://github.com/jonschlinkert/global-modules>
  *
- * Copyright (c) 2015 Jon Schlinkert.
+ * Copyright (c) 2015-2017 Jon Schlinkert.
  * Licensed under the MIT license.
  */
 
 'use strict';
 
 require('mocha');
+var fs = require('fs');
 var assert = require('assert');
-var exists = require('fs-exists-sync');
-var mods = require('./');
+var gm = require('./');
 
-describe('mods', function() {
+describe('global-modules', function() {
   it('should resolve the path to the global npm modules directory:', function() {
-    assert(exists(mods));
+    assert(fs.existsSync(gm));
   });
 });
